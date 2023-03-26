@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'BowlbyOne';
+    src: url(BowlbyOneSC-Regular.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +19,97 @@
     justify-content: space-between;
 }
 
+.menu-container img {
+    height: 70px;
+    width: auto;
+}
+
+.menu-container a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-item {
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.selected {
+    color: white;
+    background-color: black;
+}
+
 .logo {
+    margin-left: auto;
+}
+
+.text-container {
+    color: white;
+    background-color: black;
+}
+
+.heading1 {
+    font-family: 'BowlbyOne', 'sans-serif';
+    padding: 100px 50px 0 50px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.heading2 {
+    text-align: right;
+    padding-right: 200px;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+.text3 {
+    width: 1000px;
+    margin: auto;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.photo-select-container {
+    background-color: black;
+    padding-bottom: 70px;
+}
+
+.photo-select {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.photo-select-item img{
     height: 100px;
     width: auto;
+}
+
+.photo-select-item {
+    background-color: white;
+}
+
+.photo-select-item:hover {
+    background-color: #163c4f;
+}
+
+.text-select {
+    display: flex;
+    color: white;
+    font-size: 25px;
+}
+
+.text-item-1 {
+    padding-left: 325px;
+}
+
+.text-item-2 {
+    padding-left: 300px;
+}
+
+.text-item-3 {
+    padding-left: 300px;
 }

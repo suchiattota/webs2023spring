@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.menu-container {
+    background-color: #163c4f;
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-container img {
+    height: 70px;
+    width: auto;
+}
+
+.menu-container a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-item {
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: #163c4f;
+}
+
+.menu-item:hover {
+    background-color: black;
+    transition: 0.2s;
+}
+
+.selected {
+    color: white;
+    background-color: black;
+}
+
+.logo {
+    margin-left: auto;
+}

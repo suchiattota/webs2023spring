@@ -70,7 +70,8 @@
 }
 
 .text3 {
-    width: 1000px;
+    /*width: 1000px;*/
+    width: 70%;
     margin: auto;
     font-size: 30px;
     text-align: center;
@@ -84,8 +85,10 @@
 .photo-select {
     display: flex;
     justify-content: space-between;
-    padding-left: 300px;
-    padding-right: 300px;
+    /*padding-left: 300px;
+    padding-right: 300px;*/
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .photo-select-item img{
@@ -105,13 +108,16 @@
 }
 
 .text-item-1 {
-    padding-left: 325px;
+    /* padding-left: 325px; */
+    padding-left: 22%;
 }
 
 .text-item-2 {
-    padding-left: 300px;
+    /*padding-left: 300px;*/
+    padding-left: 22%;
 }
 
 .text-item-3 {
-    padding-left: 300px;
+    /*padding-left: 300px;*/
+    padding-left: 21%;
 }

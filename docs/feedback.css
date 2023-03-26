@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'BowlbyOne';
+    src: url(BowlbyOneSC-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*background-color: black;
+    /*color: white;*/
+}
+
+.menu-container {
+    background-color: #163c4f;
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-container img {
+    height: 70px;
+    width: auto;
+}
+
+.menu-container a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-item {
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: #163c4f;
+}
+
+.menu-item:hover {
+    background-color: black;
+    transition: 0.2s;
+}
+
+.selected {
+    color: white;
+    background-color: black;
+}
+
+.logo {
+    margin-left: auto;
+    background-color: black;
+}
+
+/*----------------------------------------*/
+
+.outline {
+    background-color: black;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+.feedback-form {
+    background-color: #F6F7F8;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    
+    width: 80%;
+    padding: 50px;
+    margin: 0 0 40px 0;
+
+}
+
+.form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+.form-row input[type='text'] {
+    background-color: #FFFFFF;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+}
+  
+.form-row label {
+    margin-bottom: 15px;
+}
+
+.form-row select {
+    border: 1px solid #D6D9DC;
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+    color: #494c50;
+}
+
+.form-row textarea {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+  
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+  
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 7px;
+    resize: none;
+  }
+  
+  .form-row .instructions {
+    color: #999999;
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+
+  .form-row button {
+    font-size: 16px;
+    font-weight: bold;
+  
+    color: #FFFFFF;
+    background-color: #5995DA;
+  
+    border: none;
+    border-radius: 3px;
+  
+    padding: 10px 40px;
+    cursor: pointer;
+
+    width:20%
+
+    
+  }
+  
+  .form-row button:hover {
+    background-color: #76AEED;
+  }
+  
+  .form-row button:active {
+    background-color: #407FC7;
+  }

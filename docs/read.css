@@ -27,7 +27,6 @@
 }
 
 .menu-container a {
-    color: white;
     text-decoration: none;
 }
 
@@ -44,7 +43,6 @@
 }
 
 .selected {
-    color: white;
     background-color: black;
 }
 

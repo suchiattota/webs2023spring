@@ -8,6 +8,7 @@
     padding: 0;
     box-sizing: border-box;
     background-color: black;
+    color: white;
 }
 
 .menu-container {
@@ -26,7 +27,6 @@
 }
 
 .menu-container a {
-    color: white;
     text-decoration: none;
 }
 
@@ -43,16 +43,11 @@
 }
 
 .selected {
-    color: white;
     background-color: black;
 }
 
 .logo {
     margin-left: auto;
-}
-
-.text-container {
-    color: white;
 }
 
 .heading1 {
@@ -103,7 +98,6 @@
 
 .text-select {
     display: flex;
-    color: white;
     font-size: 25px;
 }
 

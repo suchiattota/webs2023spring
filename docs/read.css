@@ -1,8 +1,14 @@
+@font-face {
+    font-family: 'BowlbyOne';
+    src: url(BowlbyOneSC-Regular.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: black;
+    color: white;
 }
 
 .menu-container {
@@ -44,4 +50,17 @@
 
 .logo {
     margin-left: auto;
+}
+
+h1 {
+    font-family: 'BowlbyOne', 'sans-serif';
+    font-size: 70px;
+    padding-left: 2%;
+}
+
+p {
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 30px;
 }

@@ -115,3 +115,17 @@
     /*padding-left: 300px;*/
     padding-left: 21%;
 }
+
+/* read.html page */
+h1 {
+    font-family: 'BowlbyOne', 'sans-serif';
+    font-size: 70px;
+    padding-left: 2%;
+}
+
+p {
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 30px;
+}

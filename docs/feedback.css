@@ -11,6 +11,10 @@
     /*color: white;*/
 }
 
+body {
+    background-color: black;
+}
+
 .menu-container {
     background-color: #163c4f;
     display: flex;

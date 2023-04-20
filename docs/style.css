@@ -35,9 +35,10 @@
 }
 
 .menu-item {
-    font-size: 20px;
-    padding: 20px;
-    text-align: center;
+    display: flex;
+    font-size: 1.2em;
+    padding: 10%;
+    justify-content: space-evenly;
     background-color: #163c4f;
 }
 
@@ -54,40 +55,39 @@
     margin-left: auto;
 }
 
-.heading1 {
-    font-family: 'BowlbyOne', 'sans-serif';
-    padding: 100px 50px 0 50px;
-    font-size: 50px;
+.heading1 h1{
+    padding-top: 6%;
     text-align: center;
+    font-size: 6.5em;
 }
 
 .heading2 {
     text-align: right;
-    padding-right: 200px;
-    font-size: 20px;
-    margin-bottom: 100px;
+    padding-right: 12%;
+    font-size: 1.5em;
+    margin-bottom: 6%;
 }
 
 .text3 {
     /*width: 1000px;*/
-    width: 70%;
+    width: 75%;
     margin: auto;
-    font-size: 30px;
+    font-size: 1.8em;
     text-align: center;
     padding-bottom: 50px;
 }
 
 .photo-select-container {
-    padding-bottom: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
-.photo-select {
+.photo-select-item {
     display: flex;
-    justify-content: space-between;
-    /*padding-left: 300px;
-    padding-right: 300px;*/
-    padding-left: 20%;
-    padding-right: 20%;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5em;
 }
 
 .photo-select-item img{
@@ -100,30 +100,11 @@
     background-color: #163c4f;
 }
 
-.text-select {
-    display: flex;
-    font-size: 25px;
-}
-
-.text-item-1 {
-    /* padding-left: 325px; */
-    padding-left: 22%;
-}
-
-.text-item-2 {
-    /*padding-left: 300px;*/
-    padding-left: 22%;
-}
-
-.text-item-3 {
-    /*padding-left: 300px;*/
-    padding-left: 21%;
-}
 
 /* read.html page */
 h1 {
     font-family: 'BowlbyOne', 'sans-serif';
-    font-size: 70px;
+    font-size: 5em;
     padding-left: 2%;
 }
 
@@ -145,7 +126,7 @@ h1 {
 .border p {
     font-family: 'GloriaHallelujah', 'sans-serif';
     padding-top: 2%;
-    font-size: 30px;
+    font-size: 1.6em;
 }
 
 /* listen.html page */
@@ -190,4 +171,21 @@ h1 {
 
 .github-links:hover {
     color: #163c4f;
+}
+
+@media screen and (max-width: 550px)
+{
+    .menu-item {
+        font-size: 1.2em;
+        padding: 3%;
+    }
+
+    .selected {
+        background-color: black;
+    }
+
+    .menu-container img {
+        height: 50px;
+        width: auto;
+    }
 }

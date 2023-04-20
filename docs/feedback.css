@@ -149,3 +149,21 @@ body {
   .form-row button:active {
     background-color: #407FC7;
   }
+
+  @media screen and (max-width: 550px)
+  {
+      .menu-item {
+          font-size: 1.2em;
+          padding: 3%;
+      }
+  
+      .selected {
+          background-color: black;
+      }
+  
+      .menu-container img {
+          height: 50px;
+          width: auto;
+      }
+
+  }

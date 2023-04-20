@@ -161,7 +161,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 20px;
+    font-size: 1.3em;
 }
 
 .links-container-items a {
@@ -187,5 +187,33 @@ h1 {
     .menu-container img {
         height: 50px;
         width: auto;
+    }
+
+    .heading1 h1{
+        font-size: 4.5em;
+    }
+    
+    .heading2 {
+        font-size: 1.2em;
+    }
+
+    .text3 {
+        font-size: 1.5em;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    .container-items img {
+        width: 95%;
+    }
+    
+    .container-items audio {
+        width: 100%;
+    }
+
+    .links-container-items {
+        font-size: 1em;
     }
 }
